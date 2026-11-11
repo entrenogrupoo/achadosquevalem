@@ -94,3 +94,21 @@ body{background:radial-gradient(ellipse at 8% 12%,#ffd1c4 0%,transparent 39%),ra
 .hero-cta-section .hero-cta{display:flex;align-items:center;justify-content:center;width:min(100%,440px);min-height:58px;text-align:center;box-sizing:border-box;animation:olhaiCtaPulse 2.8s ease-in-out infinite}
 @keyframes olhaiCtaPulse{0%,100%{box-shadow:0 4px 12px rgba(28,139,78,.16)}50%{box-shadow:0 4px 23px rgba(28,139,78,.35)}}
 @media(max-width:600px){.hero-cta-section{padding:18px 14px 2px;gap:10px}.hero-cta-section p{font-size:13px}.hero-cta-section .hero-cta{min-height:54px}}
+
+/* Identidade Achados Que Valem — mantendo carrossel original de 15 ofertas */
+:root{color:#173c2b;background:#f8faf4}
+body{background:radial-gradient(ellipse at 10% 0%,#e2f1df 0%,transparent 42%),radial-gradient(ellipse at 94% 40%,#fff0c8 0%,transparent 42%),linear-gradient(160deg,#fbfcf7,#f2f7ee)}
+.ambient-one{background:#b2dfad;opacity:.14}.ambient-two{background:#e7c16c;opacity:.13}
+.ticker{background:linear-gradient(90deg,#073c22,#17683b,#0b4b2a);color:#fff6d8}.ticker-set span{color:#fff4d6}.ticker-star{color:#eec46b}
+.glass{background:linear-gradient(145deg,rgba(255,255,255,.94),rgba(246,250,239,.87));border-color:#d9e5ce;box-shadow:0 16px 55px #194a2820,inset 0 1px #fff}
+.hero h1,.section-heading h2{color:#123c27}.hero h1 em,.section-heading em,em{color:#b28a27}
+.logo-wrap{background:linear-gradient(135deg,#f8e8b5,#d4a13c,#fff0b9);box-shadow:0 0 32px #e8c35e55}
+.logo{object-fit:contain}.eyebrow{color:#547451}.live-dot{background:#31b36b;box-shadow:0 0 12px #4bc77b}
+.cta{background:linear-gradient(110deg,#0ebd62,#087b40);color:white;box-shadow:0 10px 25px #00813e40}
+.carousel-hint{color:#66806c}.carousel-hint span{color:#c9a14c}
+.offer-card{border-color:#d4e4d1;box-shadow:0 12px 30px #1b583021}
+.edge-fade.left{background:linear-gradient(90deg,#f5f9f0,transparent)}.edge-fade.right{background:linear-gradient(270deg,#f5f9f0,transparent)}
+.bottom p{color:#486951}footer{color:#6b8170}footer .footer-links button{color:#366b48}
+.policy-dialog{background:#f8fbf4;color:#244a34;border-color:#d5e5d1}.image-dialog{background:#f5f9f0;border-color:#b6d3b3}
+.hero-cta-section p{color:#3c6848}
+@media(max-width:600px){.hero h1{font-size:clamp(28px,8vw,44px)}.logo{max-width:100%;height:auto}}

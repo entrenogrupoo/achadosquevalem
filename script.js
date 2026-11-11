@@ -12,8 +12,8 @@ document.querySelectorAll('[data-group]').forEach(a=>{
  a.addEventListener('click',e=>{
   if(!groupUrl){e.preventDefault();alert('O link do grupo está indisponível no momento.');return;}
   if(typeof fbq==='function'){
-   fbq('track','Lead',{content_name:'OLHAI Promobaby',source:'botao_grupo'});
-   fbq('trackCustom','CliqueGrupoWhatsApp',{source:'botao',destination:'WhatsApp',content_name:'OLHAI Promobaby'});
+   fbq('track','Lead',{content_name:'Achados Que Valem',source:'botao_grupo'});
+   fbq('trackCustom','CliqueGrupoWhatsApp',{source:'botao',destination:'WhatsApp',content_name:'Achados Que Valem'});
   }
  });
 });
