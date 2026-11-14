@@ -120,3 +120,47 @@ body{background:radial-gradient(ellipse at 10% 0%,#e2f1df 0%,transparent 42%),ra
 .hero-cta-section .hero-cta{width:min(100%,520px);min-height:68px;font-size:clamp(16px,2.5vw,20px);box-shadow:0 12px 30px #04843d48,0 0 0 2px #f0c76d70}
 main{padding-bottom:0}footer{padding-top:0;padding-bottom:24px}footer p{margin:6px 0}footer .footer-links{margin:8px auto}footer small{max-width:540px}
 @media(max-width:600px){.hero{margin-top:12px;padding:20px 16px 22px}.hero-cta-section{padding-top:12px;margin-bottom:20px}.hero-cta-section .hero-cta{min-height:64px}.footer-logo{width:34px;height:34px}}
+
+/* 11/11: mobile portrait compacto, sem área vazia depois do rodapé */
+html,body{min-height:0;height:auto}
+body{display:flow-root}
+main{display:block;padding:0}
+footer{margin:0 auto;padding:8px 16px 18px;max-width:680px}
+.ambient-two{display:none}
+@media(max-width:600px){
+ .ticker{height:32px}
+ .hero{width:calc(100% - 28px);max-width:480px;margin:12px auto 0;border-radius:26px;padding:23px 18px 24px}
+ .logo-wrap{width:108px;height:108px;margin-bottom:17px}
+ .eyebrow{font-size:10px;letter-spacing:1.5px}
+ .hero h1{font-size:clamp(30px,8.3vw,42px);line-height:1.14;letter-spacing:-1.15px;margin:18px auto 0}
+ .hero-cta-section{width:100%;max-width:500px;padding:15px 14px 0;gap:14px;margin:0 auto 14px}
+ .hero-cta-section p{font-size:15px;line-height:1.4;max-width:350px}
+ .hero-cta-section .hero-cta{width:100%;min-height:70px;font-size:16px;padding:17px 10px}
+ footer{padding:4px 18px 20px}
+ .footer-logo{width:30px;height:30px}
+ footer p{margin:3px 0 5px}
+ footer .footer-links{margin:6px auto}
+ footer small{font-size:10px;line-height:1.45}
+}
+
+/* 14/11: mobile compacto sem altura fantasma / espaço ocioso */
+html,body{margin:0;min-height:0!important;height:auto!important}
+body{display:block!important;position:relative;overflow-x:clip}
+.ambient{display:none!important}
+main{margin:0!important;padding:0!important;min-height:0!important}
+footer{margin:0 auto!important;padding:4px 16px 14px!important}
+@media(max-width:600px){
+ .ticker{height:29px!important}
+ .hero{width:calc(100% - 28px)!important;max-width:460px!important;margin:10px auto 0!important;padding:16px 16px 18px!important;border-radius:22px!important}
+ .logo-wrap{width:90px!important;height:90px!important;margin:0 auto 12px!important}
+ .eyebrow{font-size:10px!important;letter-spacing:1.2px!important;gap:6px!important}
+ .hero h1{font-size:clamp(28px,7.6vw,36px)!important;line-height:1.12!important;letter-spacing:-.9px!important;margin:13px auto 0!important}
+ .hero-cta-section{padding:12px 14px 0!important;gap:10px!important;margin:0 auto 10px!important}
+ .hero-cta-section p{font-size:14px!important;line-height:1.32!important;max-width:350px!important}
+ .hero-cta-section .hero-cta{min-height:62px!important;padding:14px 10px!important;font-size:15px!important}
+ footer{padding:2px 16px 12px!important}
+ .footer-logo{width:28px!important;height:28px!important}
+ footer p{margin:2px 0 4px!important}
+ footer .footer-links{margin:4px auto!important}
+ footer small{font-size:10px!important;line-height:1.35!important}
+}
